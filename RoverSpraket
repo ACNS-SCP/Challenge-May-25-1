@@ -52,13 +52,9 @@ namespace RoverSpraket
       foreach (char c in input)
       {
         if ((vowels.Contains(Char.ToUpper(c))) || !(alphaChars.IsMatch(c.ToString())))
-        {
           encoded += c;
-        }
         else
-        {
           encoded += c + "o" + Char.ToLower(c);
-        }
       }
       return encoded;
     }
@@ -71,9 +67,7 @@ namespace RoverSpraket
       {
         Char c = input[i];
         if ((vowels.Contains(Char.ToUpper(c))) || !(alphaChars.IsMatch(c.ToString())))
-        {
           decoded += c;
-        }
         else
         {
           decoded += c;
