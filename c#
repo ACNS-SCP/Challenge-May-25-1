@@ -28,7 +28,7 @@ namespace Rovarspraket
               }
               else
               {
-                Console.WriteLine("you's a bitch");
+                Console.WriteLine("Invalid Option");
               }
                 
                 
